@@ -4,15 +4,15 @@ SEOTitle: 欢迎来到Perdixky
 header-img: img/post-bg-desk.jpg
 email: 3293789706@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "https://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "Perdikxy, Perdixky的博客, 博客"
+url: "https://perdixky.github.io.git"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/perdixky/perdixky.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/1719221053690.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 plugins:
   - jekyll-paginate
@@ -50,7 +50,7 @@ gems: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-highlighter: rougeF
+highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
@@ -62,7 +62,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: Perdixky.github.io    #仓库名称
